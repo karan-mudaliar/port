@@ -49,19 +49,31 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "R",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "SQL",
         value: 80,
     },
     {
-        name: "React",
+        name: "Airflow",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Astronomer/Airflow",
+        value: 85,
+    },
+    {
+        name: "Github",
+        value: 85,
+    },
+    {
+        name: "AWS",
+        value: 85,
+    },
+    {
+        name: "Databricks",
         value: 85,
     },
 ];
@@ -146,7 +158,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "karan.mudaliar1999@gmail.com",
     YOUR_FONE: "(617)314-1536",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
