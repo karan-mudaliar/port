@@ -46,6 +46,9 @@ const Headermain = () => {
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/resumé" className="my-3"> Resume</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -56,7 +59,7 @@ const Headermain = () => {
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">{logotext}</p>
           </div>
         </div>
       </header>

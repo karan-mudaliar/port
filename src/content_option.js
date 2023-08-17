@@ -1,39 +1,47 @@
-const logotext = "JOHN";
+const logotext = "Karan Mudaliar";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Karan Mudaliar",
+    description: "Passionate data explorer, Creative problem solver, Aspiring culinary artist",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Karan Mudaliar",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love exploring data",
+        second: "I write cool ML pipelines",
+        third: "I love cats",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Me",
+    aboutme: "I love exploring data and finding creative solutions. Whether it's unraveling complex puzzles or experimenting in the kitchen, I enjoy tackling challenges and learning new things.",
 };
+
+const educationaltimeline = [{
+    degree: "Master of Science in Data Science",
+    institution: "Northeastern University, Khoury College of Computer Sciences",
+    date: "2023 Jan - 2024 December",
+},
+{
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "Vellore Institute of Technology",
+    date: "2017 July - 2021 May",
+},
+];
+
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Data Engineer",
+        where: "Conde Nast",
+        date: "2021 Feb - 2023 July",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+        jobtitle: "Data Analyst",
+        where: "Capgemini",
+        date: "2019 April - 2023 June",
+    }
 ];
 
 const skills = [{
@@ -136,8 +144,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "karan.mudaliar1999@gmail.com",
+    YOUR_FONE: "(617)314-1536",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -147,10 +155,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/karan-mudaliar",
+    instagram: "https://www.instagram.com/karan__mudaliar/",
+    linkedin: "https://www.linkedin.com/in/karan-mudaliar1999/",
 };
 export {
     meta,
@@ -163,4 +170,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    educationaltimeline,
 };
