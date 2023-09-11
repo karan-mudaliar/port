@@ -13,6 +13,10 @@ const Headermain = () => {
     document.body.classList.toggle("ovhidden");
   };
 
+  const openResumePDF = () => {
+    window.open('/assets/resume/karan.pdf', '_blank');
+  };
+
   return (
     <>
       <header className="fixed-top site__header">
@@ -47,7 +51,15 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/resumé" className="my-3"> Resume</Link>
+                    <a
+                      onClick={handleToggle}
+                      href={'/portfolio/karan.pdf'}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="my-3"
+                    >
+                      Resumé
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -55,9 +67,9 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
-            <a href={socialprofils.facebook}>Facebook</a>
+            <a href={socialprofils.instagram}>Instagram</a>
             <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.twitter}>Twitter</a>
+            <a href={socialprofils.linkedin}>linkedin</a>
             </div>
             <p className="copyright m-0">{logotext}</p>
           </div>

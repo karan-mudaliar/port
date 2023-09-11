@@ -11,7 +11,7 @@ const introdata = {
         second: "I write cool ML pipelines",
         third: "I love cats",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I love exploring data and finding creative solutions. Whether it's unraveling complex puzzles or experimenting in the kitchen, I enjoy tackling challenges and learning new things.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
