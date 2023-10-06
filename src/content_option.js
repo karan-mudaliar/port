@@ -12,7 +12,7 @@ const introdata = {
         third: "I love cats",
     },
     description: "I love exploring data and finding creative solutions. Whether it's unraveling complex puzzles or experimenting in the kitchen, I enjoy tackling challenges and learning new things.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://raw.githubusercontent.com/karan-mudaliar/portfolio/master/src/assets/images/landing_photo.jpg",
 };
 
 const dataabout = {
@@ -94,64 +94,28 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Deep Learning & PyTorch",
+        link: "https://github.com/karan-mudaliar/Deep-Learning",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Comparison Of different deep networks",
+        link: "https://github.com/karan-mudaliar/Supervised-Machine-Learning-DS5220",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Analysis of Collapse of Silicon Valley Bank",
+        link: "https://github.com/karan-mudaliar/SVB_Analysis",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Boston Housing Tracker",
+        link: "https://github.com/ark097/Web_Crawler_Boston_Realty",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "LeetCode Prep",
+        link: "https://github.com/karan-mudaliar/LeetCode",
     },
 ];
 
