@@ -73,7 +73,23 @@ const skills = [{
         value: 85,
     },
     {
-        name: "Databricks",
+        name: "ETL",
+        value: 85,
+    },
+    {
+        name: "Tableau",
+        value: 85,
+    },
+    {
+        name: "PyTorch",
+        value: 85,
+    },
+    {
+        name: "Spark",
+        value: 85,
+    },
+    {
+        name: "NumPy",
         value: 85,
     },
 ];
