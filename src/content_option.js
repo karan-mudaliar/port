@@ -133,6 +133,11 @@ const dataportfolio = [{
         description: "LeetCode Prep",
         link: "https://github.com/karan-mudaliar/LeetCode",
     },
+    {
+        img: "https://picsum.photos/400/300/?grayscale",
+        description: "Titanic -  The classic Kaggle Project",
+        link: "https://github.com/karan-mudaliar/Titanic/",
+    },
 ];
 
 const contactConfig = {
