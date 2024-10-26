@@ -84,16 +84,14 @@ export const About = () => {
           </Col>
 
           <Col lg="7">
-              {skills.map((data, i) => {
-                return (
-                  <div key={i}>
-                    <h3 className="progress-title">{data.name}</h3>
-                    {/* Progress bar removed */}
-                  </div>
-                );
-              })}
-        </Col>
-
+              <div className="skills-grid">
+                  {skills.map((data, i) => (
+                      <div key={i}>
+                          <h3 className="progress-title">{data.name}</h3>
+                      </div>
+                  ))}
+              </div>
+          </Col>
         </Row>
       </Container>
     </HelmetProvider>
