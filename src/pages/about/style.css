@@ -97,3 +97,15 @@
         transform: translateZ(0);
     }
 }
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.table > :not(caption) > * > * {
+    border-bottom-width: 0; /* Removes the bottom border */
+    border: none;           /* Fully hides borders if needed */
+}
+

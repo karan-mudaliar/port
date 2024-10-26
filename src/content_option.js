@@ -23,7 +23,7 @@ const dataabout = {
 const educationaltimeline = [{
     degree: "Master of Science in Data Science",
     institution: "Northeastern University, Khoury College of Computer Sciences",
-    date: "2023 Jan - 2024 December",
+    date: "2023 Jan - 2025 May",
 },
 {
     degree: "Bachelor of Technology in Computer Science",
@@ -32,7 +32,18 @@ const educationaltimeline = [{
 },
 ];
 
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "Applied Science Co-op",
+        where: "Liberty Mutual Insurance",
+        date: "2024 August - 2024 December",
+    },
+    {
+        jobtitle: "Machine Learning Engineering Intern",
+        where: "CVS health",
+        date: "2024 May - 2024 August",
+    },
+    {
         jobtitle: "Data Engineer",
         where: "Conde Nast",
         date: "2021 Feb - 2023 July",
@@ -41,7 +52,7 @@ const worktimeline = [{
         jobtitle: "Data Analyst",
         where: "Capgemini",
         date: "2019 April - 2023 June",
-    }
+    },
 ];
 
 const skills = [{
@@ -53,15 +64,35 @@ const skills = [{
         value: 85,
     },
     {
+        name: "Natural Language Processing",
+        value: 85,
+    },
+    {
+        name: "Computer Vision",
+        value: 85,
+    },
+    {
+        name: "LLM fine tuning",
+        value: 85,
+    },
+    {
+        name: "Graph Neural Networks",
+        value: 85,
+    },
+    {
+        name: "Machine Learning",
+        value: 85,
+    },
+    {
+        name: "MLOps",
+        value: 85,
+    },
+    {
         name: "SQL",
         value: 80,
     },
     {
         name: "Airflow",
-        value: 60,
-    },
-    {
-        name: "Astronomer/Airflow",
         value: 85,
     },
     {
@@ -90,6 +121,10 @@ const skills = [{
     },
     {
         name: "NumPy",
+        value: 85,
+    },
+    {
+        name: "GCP",
         value: 85,
     },
 ];
