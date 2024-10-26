@@ -1,38 +1,6 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+Karan Mudaliar
+A driven Data Science enthusiast with a passion for machine learning engineering and data-driven problem solving. Karan is currently pursuing his Master’s in Data Science at Northeastern University, with experience at Liberty Mutual, CVS Health, and Conde Nast. Skilled in developing and fine-tuning models, building ETL pipelines, and leveraging deep learning for real-world applications, Karan aims to make impactful contributions in the fields of AI and data science.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
-
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
-
-### Features
-
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
-### Setup
-
-Get the code
-
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
-
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+###
