@@ -70,12 +70,6 @@
     padding-bottom: 4px;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
-}
-
 /*! CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {

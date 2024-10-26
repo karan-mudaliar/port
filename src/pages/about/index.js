@@ -84,13 +84,14 @@ export const About = () => {
           </Col>
 
           <Col lg="7">
-              <div className="skills-grid">
-                  {skills.map((data, i) => (
-                      <div key={i}>
-                          <h3 className="progress-title">{data.name}</h3>
-                      </div>
-                  ))}
-              </div>
+            {skills.map((data, i) => {
+                  return (
+                    <div key={i}>
+                      <h3 className="progress-title">{data.name}</h3>
+                      {/* Progress bar removed */}
+                    </div>
+                  );
+                })}
           </Col>
         </Row>
       </Container>
